@@ -1,0 +1,5 @@
+DomainID	CPU	PerformanceState
+5		0	15
+5		1	15
+6		2	14
+6		3	14
