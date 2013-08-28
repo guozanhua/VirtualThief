@@ -2,7 +2,9 @@
 ** Author: Ming Liu
 ** Description: This is a scheduler executed in Domain0 of Xen virtulized environment.
 ** It rebalances all VM's performance states and steals power from other VMs to GPU VM 
-** to cap the maximum power consumption. This scheduler is used in the submitted MICRO paper.
+** to cap the maximum power consumption. This scheduler is originally used in my submitted 
+** MICRO paper.The paper is rejected due to weak ideas. However, it is a nice try for a 
+** python project. 
 ** It includes three schedulers: optimal search, evenly search and priority search.
 **
 ** Usage: python VirtualThief.py [GPU Application Name] [Input Size] [Method] [Degradation]
